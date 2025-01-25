@@ -68,146 +68,299 @@
   </header>
   <!-- end header section -->
 
-  <!-- gallery section -->
+ <!-- Products Section -->
+<div class="gallery_section layout_padding2">
+  <div class="container-fluid">
+    <div class="heading_container heading_center">
+      <h1>Products</h1>
+    </div>
 
-  <div class="gallery_section layout_padding2">
-    <div class="container-fluid">
-      <div class="heading_container heading_center">
-        <h2>
-          Products
-        </h2>
-      </div>
-
-      <!-- Category 1 -->
-      <h3>Elevators</h3>
+    <!-- Category 1: Elevators -->
+    <div class="category">
+      <h3 class="category-header text-center">Elevators</h3>
       <div class="row">
-        <div class="col-sm-8 col-md-4 px-0">
+        <!-- Initial 3 Photos -->
+        <div class="col-sm-4 px-0">
           <div class="img-box">
-            <div class="lift-text">Passanger Lift</div>
-            <img src="images/lift2.jpg" alt="">
-            <a href="images/lift2.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+            <img src="images/lift2.jpg" alt="Passenger Lift">
+            <div class="lift-text">Passenger Lift</div>
           </div>
         </div>
-        <div class="col-sm-4 col-md-4 px-0">
+        <div class="col-sm-4 px-0">
           <div class="img-box">
-            <img src="images/lift4.jpg" alt="">
+            <img src="images/lift4.jpg" alt="Hospital Lift">
             <div class="lift-text">Hospital Lift</div>
-            <a href="images/lift4.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 px-0">
+        <div class="col-sm-4 px-0">
           <div class="img-box">
+            <img src="images/lift8.jpg" alt="Car Lift">
             <div class="lift-text">Car Lift</div>
-            <img src="images/lift8.jpg" alt="">
-            <a href="images/lift8.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 px-0">
-          <div class="img-box">
-            <div class="lift-text">Stack Parking</div>
-            <img src="images/lift5.jpg" alt="">
-            <a href="images/lift5.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 px-0">
-          <div class="img-box">
-            <div class="lift-text">Goods Lift</div>
-            <img src="images/lift3.jpg" alt="">
-            <a href="images/lift3.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-50">
-          <div class="img-box">
-            <div class="lift-text">Home Lift</div>
-            <img src="images/lift9.jpg" alt="">
-            <a href="images/lift9.jpg" data-toggle="lightbox" data-gallery="gallery1">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
           </div>
         </div>
       </div>
-
-  <!-- end gallery section -->
-
-
-  <!-- info section -->
-  <section class="info_section innerpage_info_section">
-    <div class="container">
-      <div class="row info_main_row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_insta">
-            <h4>
-              <a href="index.html" class="navbar-brand m-0 p-0">
-                <span>
-                  Creative Elevators
-                </span>
-              </a>
-            </h4>
-            <p class="mb-0">
-              Asperiores at, error, delectus aut voluptatem provident cum quam magni necessitatibus molestias eveniet reprehenderit maiores voluptate.
-            </p>
+      <!-- Hidden Photos -->
+      <div class="row more-photos" style="display: none;">
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/lift5.jpg" alt="Stack Parking">
+            <div class="lift-text">Stack Parking</div>
           </div>
         </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/lift3.jpg" alt="Goods Lift">
+            <div class="lift-text">Goods Lift</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/lift9.jpg" alt="Home Lift">
+            <div class="lift-text">Home Lift</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box text-center">
+        <button class="view-more-btn" onclick="togglePhotos(this)">View More</button>
+      </div>
+    </div>
+
+    
+        <!-- Category 2: Doors -->
+    <div class="category">
+      <h3 class="category-header text-center">Doors</h3>
+      <div class="row">
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/door1.jpg" alt="Automatic SS Door">
+            <div class="lift-text">Automatic SS Door</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/door2.jpg" alt="Automatic MS Door">
+            <div class="lift-text">Automatic MS Door</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/door7.jpg" alt="Swing Door">
+            <div class="lift-text">Swing Door</div>
+          </div>
+        </div>
+      </div>
+      <div class="row more-photos" style="display: none;">
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/door5.jpg" alt="Collapsible Door">
+            <div class="lift-text">Collapsible Door</div>
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/door8.jpg" alt="Telescopic SS Door">
+            <div class="lift-text">Telescopic SS Door</div>
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/door9.jpg" alt="Telescopic MS Door">
+            <div class="lift-text">Telescopic MS Door</div>
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/door4.jpg" alt="Telescopic MS Door">
+            <div class="lift-text">Accordion Door</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box text-center">
+        <button class="view-more-btn" onclick="togglePhotos(this)">View More</button>
+      </div>
+    </div>
+
+      <!-- Category 3: Machines -->
+      <div class="category">
+        <h3 class="category-header text-center">Machines</h3>
+        <div class="row">
+          <div class="col-sm-3 px-0">
+            <div class="img-box">
+              <img src="images/machine1.jpg" alt="">
+              <div class=""></div>
+            </div>
+          </div>
+          <div class="col-sm-3 px-0">
+            <div class="img-box">
+              <img src="images/machine2.jpg" alt="">
+              <div class=""></div>
+            </div>
+          </div>
+          <div class="col-sm-3 px-0">
+            <div class="img-box">
+              <img src="images/machine3.jpg" alt="">
+              <div class=""></div>
+            </div>
+          </div>
+          <div class="col-sm-3 px-0">
+            <div class="img-box">
+              <img src="images/machine4.jpg" alt="">
+              <div class=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+         
+
+      <!-- Category 4: Controller and Drive -->
+    <div class="category">
+      <h3 class="category-header text-center">Controller and Drive</h3>
+      <div class="row">
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/Controller1.jpg" alt="Icon Controller">
+            <div class="lift-text">Icon Controller</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/controller2.jpg" alt="Monarch Controller">
+            <div class="lift-text">Monarch Controller</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/controller3.jpg" alt="Monarch Controller">
+            <div class="lift-text">Monarch Controller</div>
+          </div>
+        </div>
+      </div>
+      <div class="row more-photos" style="display: none;">
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/controller4.jpg" alt="Icon Controller">
+            <div class="lift-text">Icon Controller</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/Drive1.jpg" alt="Signal Drive">
+            <div class="lift-text">Toshiba Drive</div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-0">
+          <div class="img-box">
+            <img src="images/Drive2.jpg" alt="Signal Drive">
+            <div class="lift-text">Yaskawa Drive</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box text-center">
+        <button class="view-more-btn" onclick="togglePhotos(this)">View More</button>
+      </div>
+    </div>
+
+      
+
+    <!-- Category 5: Outside and Inside Button Panels -->
+    <div class="category">
+      <h3 class="category-header text-center">Outside and Inside Button Panels</h3>
+      <div class="row">
+        <div class="col-sm-1 px-20">
+          <div class="img-box">
+            <img src="images/panel1.jpg" alt="">
+            <div class=""></div>  
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/panel2.jpg" alt="">
+            <div class=""></div>
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/" alt="">
+            <div class=""></div>
+          </div>
+        </div>
+        <div class="col-sm-3 px-0">
+          <div class="img-box">
+            <img src="images/" alt="">
+            <div class=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  <!-- end products section -->
+
+
+    <!-- Gap -->
+ <section class="client_section layout_padding">
+  <div class="container">
+    <div class="heading_container"> 
+    </div>
+  </div>
+
+   <!-- Map Section -->
+<div class="map-container" style="width: 100%; height: 300px; margin-bottom: 20px;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.571069905214!2d72.82607387498565!3d19.387716681882164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7afdc188f8ea7%3A0xac5a7afb489501b9!2sCreative%20Elevators!5e0!3m2!1sen!2sin!4v1737801349370!5m2!1sen!2sin" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+  <!-- end contact section -->
+
+  <section class="info_section">
+    <div class="container">
+      <div class="row info_main_row d-flex justify-content-between">
         <div class="col-md-6 col-lg-3">
           <div class="info_detail">
-            <h4>
-              Company
-            </h4>
+            <h4>Address</h4>
             <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+              Shop No.5, Mitesh Villa, Vartak College Road, Vasai West, Palghar- 401202
             </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
-          <h4>
-            Contact Us
-          </h4>
+          <h4>Contact Us</h4>
           <div class="info_contact">
-            <a href="">
+            <a href="https://maps.app.goo.gl/oy27QqHC9eSiEKor5">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Location
-              </span>
+              <span>Location</span>
             </a>
-            <a href="">
+            <a href="tel:+917028813393">
               <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call +01 1234567890
-              </span>
+              <span>Call +91 7028813393</span>
             </a>
-            <a href="">
+            <a href="https://mail.google.com/mail/?view=cm&to=creativeelevatorss@gmail.com" target="_blank">
               <i class="fa fa-envelope"></i>
-              <span>
-                demo@gmail.com
-              </span>
+              <span>creativeelevatorss@gmail.com</span>
             </a>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
-          <h4>
-            Follow Us
-          </h4>
+          <h4>Follow Us</h4>
           <div class="social_box">
+            <a href="https://wa.me/917028813393">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </a>
             <a href="">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
+            <a href="https://www.linkedin.com/company/creative-elevators/">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/creative_elevators/profilecard/?igsh=dXgyd3U1aWRoOXRv">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
