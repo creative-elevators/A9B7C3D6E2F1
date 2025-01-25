@@ -192,3 +192,14 @@ document.querySelector('.btn-box a').addEventListener('click', function (e) {
 });
 
   
+
+function togglePhotos(button) {
+  const morePhotos = button.closest('.category').querySelector('.more-photos');
+  if (morePhotos.style.display === 'none') {
+    morePhotos.style.display = 'flex';
+    button.textContent = 'View Less';
+  } else {
+    morePhotos.style.display = 'none';
+    button.textContent = 'View More';
+  }
+}
